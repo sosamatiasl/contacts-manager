@@ -1,3 +1,7 @@
+using MySql.Data.MySqlClient;
+using System;
+using System.Data;
+
 public class ContactManager
 {
     private string connectionString = "Server=localhost;Database=ContactosDB;Uid=user;Pwd=password;";
